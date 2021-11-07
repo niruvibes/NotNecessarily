@@ -7,9 +7,10 @@
   }
   body {
     font-family: Calluna, Arial, sans-serif;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(Assets/NNRBanner_1.png);
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("Assets/logo1500994.png");
     background-repeat: no-repeat;
     background-attachment: fixed !important;
+    background-size: cover !important;
     background-size: 100% !important;
     background-position: center top !important;
     padding: 1rem;
@@ -50,4 +51,7 @@
   .heading2 {
     text-align: left;
     font-size: 10vh;
+  }
+  .scroll {
+    color:black;
   }
